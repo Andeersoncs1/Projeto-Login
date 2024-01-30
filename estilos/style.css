@@ -12,9 +12,11 @@
 }
 
 body, html {
+    background-image: linear-gradient(to right, rgb(13, 15, 15), #57b49d);
     background-color: aqua;
     height: 100vh;
     width: 100vw;
+   
 }
 
 main {
@@ -60,4 +62,52 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
+}
+
+form > div.campo {
+    display: block;
+    background-image: linear-gradient(to right, rgb(145, 179, 179), #62ebc8);
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 95%;
+    height: 40px;
+    background-color: rgb(38, 211, 211);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+form > input[type=submit]:hover {
+    background-color: rgb(14, 126, 126);
+}
+
+form >a.botao {
+    display: block;
+    font-size: 1em;
+    width: 95%;
+    height: 40px;
+    color: aqua;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+form >a.botao:hover {
+    background-color: #57b49d;
+    color: white;
+}
+
+form > a.botao > span.material-symbols-outlined {
+    font-size: 0.8; 
+    text-align:justify;
+    color: #57b49d;
+}
+
+form > a.botao > span.material-symbols-outlined:hover {
+    color: rgb(129, 231, 231);
 }
